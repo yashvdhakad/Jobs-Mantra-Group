@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --gradient1: linear-gradient(135deg, #5900FF, #FF90A8);
+    --shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+    box-shadow: var(--shadow);
+}
+nav > a {
+    background: url(../content/headerLogo.svg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 444px;
+}
+.menu > a {
+    text-decoration: none;
+    color: black;
+}
+.register {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.register > a {
+    text-decoration: none;
+    color: black;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    right: 248px;
+    top: 48px;
+}
+
+section {
+    padding: 0px 120px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    padding: 40px 0px;
+}
+.title {
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.title > span {
+    background: var(--gradient1);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 55vw;
+}
+.hero > a {
+    text-decoration: none;
+    color: black;
+}
+.cta {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 8px 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.cta:hover {
+    background: var(--gradient1);
+    background: black;
+    color: white;
+    border: 2px solid black;
+}
+#illu1 {
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+    height: 20vh;
+}
+#illu2 {
+    position: absolute;
+    right: 120px;
+    bottom: 40px;
+    height: 30zvh;
+}
+#gradBall1 {
+    position: absolute;
+    top: 306px;
+    left: 202px;
+    z-index: -1;
+}
+
+.highlights {
+    height: 130vh;
+    padding: 240px 120px;
+}
+.sectionTitle {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.highlightCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+#highlightCard1, #highlightCard2, #highlightCard3, #highlightCard4 {
+    height: 294px;
+    border-radius: 17px;
+    box-shadow: var(--shadow);
+    padding: 0px 40px;
+}
+#highlightCard1, #highlightCard2, #highlightCard3, #highlightCard4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.numbers {
+    font-size: 5.5rem;
+    font-weight: 700;
+    background: var(--gradient1);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.line {
+    border: 3px solid #EDEDED;
+    height: 294px;
+    margin: 0px 40px;
+}
+.highlighttexttitle {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.highlighttextsubtitle {
+    font-size: 1rem;
+    font-weight: 500;
+}
+#totalclients {
+    font-size: 6.1rem;
+}
+#fblikes {
+    font-size: 3.91rem;
+}
