@@ -176,6 +176,127 @@ section {
     font-size: 3.91rem;
 }
 
+.services {
+    height: 130vh;
+    padding: 120px 120px;
+}
+.servicesCards {
+    height: 594px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(1, 1fr);
+    gap: 24px;
+}
+#serviceCard1, #serviceCard2, #serviceCard3, #serviceCard4 {
+    box-shadow: var(--shadowDown);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 17px;
+}
+.serviceImg > img {
+    height: 34.2vh;
+    background-size: cover;
+    box-shadow: var(--shadowDown);
+    border-radius: 17px;
+}
+.servicetexttitle {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 32px 16px;
+    margin-bottom: 16px;
+}
+.servicetextsubtitle {
+    font-size: 1rem;
+    margin: 0px 16px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clients {
+    /* height: 100vh; */
+    padding: 0px 120px;
+}
+.clientsLogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+#cL1, #cL2, #cL3, #cL4, #cL5, #cL6, #cL7, #cL8, #cL9, #cL10, #cL11, #cL12, #cL13, #cL14, #cL15 {
+    height: 80px;
+    box-shadow: var(--shadowDown);
+    border-radius: 17px;
+}
+#cL1 {
+    background: url(../content/Patanjali.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL2 {
+    background: url(../content/Shree\ Ram\ Group.svg) no-repeat center center;
+    background-size: cover;
+}
+#cL3 {
+    background: url(../content/Yes\ Bank.svg) no-repeat center center;
+    background-size: cover;
+}
+#cL4 {
+    background: url(../content/ICICI\ Bank.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL5 {
+    background: url(../content/Home\ Credit.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL6 {
+    background: url(../content/Bajaj\ Finserv.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL7 {
+    background: url(../content/Best\ Price.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL8 {
+    background: url(../content/Magma\ Fincorp.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL9 {
+    background: url(../content/Raghunandan\ Money.svg) no-repeat center center;
+    background-size: cover;
+}
+#cL10 {
+    background: url(../content/HDFC\ Bank.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL11 {
+    background: url(../content/Scientific\ Pathology.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL12 {
+    background: url(../content/Vishal\ Mega\ Mart.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL13 {
+    background: url(../content/Reliance\ Industries.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL14 {
+    background: url(../content/HDFC\ Life.svg) no-repeat center center;
+    background-size: contain;
+}
+#cL15 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 450px) {
     nav {
         padding: 16px 24px;
@@ -265,5 +386,20 @@ section {
     }
     #fblikes {
         font-size: 2.25rem;
+    }
+
+    .services {
+        padding: 440px 24px;
+    }
+    .serviceImg > img {
+        height: 50vh;
+    }
+    .servicetexttitle {
+        margin: 24px 16px;
+        margin-bottom: 0px;
+    }
+    .servicetextsubtitle {
+        margin: 16px 16px;
+        margin-bottom: 24px;
     }
 }
