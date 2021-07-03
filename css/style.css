@@ -402,4 +402,16 @@ a {
         margin: 16px 16px;
         margin-bottom: 24px;
     }
+
+    .clients {
+        height: 100vh;
+        padding: 2300px 24px;
+    }
+    .clientsLogos {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(15, 1fr);
+    }
+    #cL1, #cL2, #cL3, #cL4, #cL5, #cL6, #cL7, #cL8, #cL9, #cL10, #cL11, #cL12, #cL13, #cL14, #cL15 {
+        height: 100px;
+    }
 }
