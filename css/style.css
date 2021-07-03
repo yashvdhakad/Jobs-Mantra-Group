@@ -197,6 +197,7 @@ section {
     }
     .hero {
         height: 150vh;
+        padding: 60px 0px;
     }
     .title {
         font-size: 3.25rem;
@@ -210,47 +211,59 @@ section {
         position: relative;
         left: 0;
         bottom: 0;
-        height: 25vh;
+        height: 48vw;
     }
     #illu2 {
         position: relative;
         right: 0;
         bottom: 0;
-        height: 27vh;
+        height: 51vw;
+    }
+    #gradBall1 {
+        position: absolute;
+        top: 300px;
+        left: 0;
+        z-index: -1;
     }
 
     .highlights {
-        height: 130vh;
+        height: 100vh;
         padding: 80px 24px;
     }
     .sectionTitle {
         font-size: 2.25rem;
-        margin-bottom: 40px;
     }
     .highlightCards {
-        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(327px, 1fr));
     }
     #highlightCard1, #highlightCard2, #highlightCard3, #highlightCard4 {
-        padding: 0px 40px;
+        height: 200px;
+        padding: 0px 24px;
     }
     .numbers {
-        font-size: 5.5rem;
-    }
-    .line {
-        border: 3px solid #EDEDED;
-        height: 294px;
-        margin: 0px 40px;
-    }
-    .highlighttexttitle {
         font-size: 3.25rem;
     }
+    .line {
+        border: 2px solid #EDEDED;
+        height: 200px;
+        margin: 0px 24px;
+    }
+    .highlighttexttitle {
+        font-size: 2.25rem;
+    }
     .highlighttextsubtitle {
-        font-size: 1rem;
+        font-size: .875rem;
+    }
+    #totalprojects {
+        font-size: 2.9rem;
+    }
+    #totalawards {
+        font-size: 3.1rem;
     }
     #totalclients {
-        font-size: 6.1rem;
+        font-size: 3.27rem;
     }
     #fblikes {
-        font-size: 3.91rem;
+        font-size: 2.25rem;
     }
 }
