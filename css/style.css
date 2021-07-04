@@ -325,9 +325,85 @@ a {
 }
 .arrow {
     font-size: 5.5rem;
-    font-weight: 600;
+    font-weight: 500;
     position: absolute;
     right: 24px;
+}
+
+.ctaQ {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.Qcta {
+    margin-top: 48px;
+}
+
+.footerContainer {
+    height: 55vh;
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--shadowUp);
+}
+.LogoQuoteLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoQuote {
+    display: flex;
+    flex-direction: column;
+}
+.footerQuote {
+    width: 38vw;
+    font-weight: 600;
+    padding: 24px 0px;
+}
+.footerFounder {
+    font-weight: 600;
+}
+.footerAboutFounder {
+    font-size: .875rem;
+}
+.mainLinks, .otherLinks {
+    display: flex;
+    flex-direction: column;
+}
+.mainLinksTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#mainLink1, #mainLink2, #mainLink3, #mainLink4, #mainLink5, #mainLink6, #mainLink7 {
+    margin-top: 8px;
+}
+.otherLinksTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#otherLink1, #otherLink2, #otherLink3, #otherLink4, #otherLink5 {
+    margin-top: 8px;
+}
+.copyPromo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.promo > a {
+    background: var(--gradient1);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 450px) {
@@ -446,5 +522,29 @@ a {
     }
     #cL1, #cL2, #cL3, #cL4, #cL5, #cL6, #cL7, #cL8, #cL9, #cL10, #cL11, #cL12, #cL13, #cL14, #cL15 {
         height: 100px;
+    }
+
+    .testimonials > div {
+        padding: 0px 24px;
+    }
+    .quote {
+        font-size: 2.25rem;
+        padding-bottom: 40px;
+    }
+    .client {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .arrow {
+        font-size: 2.5rem;
+        position: absolute;
+        right: 12px;
+    }
+
+    .ctaQ {
+        font-size: 3.5rem;
+    }
+    .Qcta {
+        margin-top: 48px;
     }
 }
