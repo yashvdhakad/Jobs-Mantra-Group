@@ -121,6 +121,36 @@ section {
     left: 202px;
     z-index: -1;
 }
+#gradBall2 {
+    position: absolute;
+    top: 840px;
+    left: 160px;
+    z-index: -1;
+}
+#gradBall3 {
+    position: absolute;
+    top: 1768px;
+    right: 0px;
+    z-index: -1;
+}
+#gradBall4 {
+    position: absolute;
+    top: 2760px;
+    left: 120px;
+    z-index: -1;
+}
+#gradBall5 {
+    position: absolute;
+    top: 3850px;
+    left: 0px;
+    z-index: -1;
+}
+#gradBall6 {
+    position: absolute;
+    top: 4960px;
+    right: 0px;
+    z-index: -1;
+}
 
 .highlights {
     height: 130vh;
@@ -219,7 +249,7 @@ a {
 
 .clients {
     /* height: 100vh; */
-    padding: 0px 120px;
+    padding: 80px 120px;
 }
 .clientsLogos {
     display: grid;
@@ -375,6 +405,9 @@ a {
 .mainLinks, .otherLinks {
     display: flex;
     flex-direction: column;
+}
+.mainLinks {
+    margin-left: 184px;
 }
 .mainLinksTitle {
     font-size: 1.5rem;
@@ -546,5 +579,90 @@ a {
     }
     .Qcta {
         margin-top: 48px;
+    }
+
+    .footerContainer {
+        padding: 40px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: var(--shadowUp);
+    }
+    .LogoQuoteLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logoQuote {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerQuote {
+        width: 90vw;
+        font-weight: 600;
+        padding: 24px 0px;
+    }
+    .footerFounder {
+        font-weight: 600;
+    }
+    .footerAboutFounder {
+        font-size: .875rem;
+    }
+    .mainLinks, .otherLinks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .mainLinks {
+        margin-left: 0px;
+    }
+    .mainLinksTitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #mainLink1, #mainLink2, #mainLink3, #mainLink4, #mainLink5, #mainLink6, #mainLink7 {
+        margin-top: 8px;
+    }
+    .otherLinksTitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #otherLink1, #otherLink2, #otherLink3, #otherLink4, #otherLink5 {
+        margin-top: 8px;
+    }
+    .copyPromo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: .875rem;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+    .copy {
+        margin-bottom: 4px;
+    }
+
+    #gradBall2 {
+        top: 1160px;
+        left: 25px;
+    }
+    #gradBall3 {
+        top: 2220px;
+        right: 0px;
+    }
+    #gradBall4 {
+        top: 5025px;
+        left: 0px;
+    }
+    #gradBall5 {
+        height: 400px;
+        top: 7717px;
+        left: 0px;
+    }
+    #gradBall6 {
+        height: 417px;
+        top: 9150px;
+        left: 0px;
     }
 }
