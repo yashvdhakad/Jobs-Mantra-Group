@@ -4,8 +4,8 @@
     box-sizing: border-box;
     /* --gradient1: linear-gradient(135deg, #5900FF, #FF90A8); */
     --gradient1: linear-gradient(135deg, #00B3FF, #001AFF);
-    --shadowDown: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    --shadowUp: 0px -4px 8px rgba(0, 0, 0, 0.1);
+    --shadowDown: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    --shadowUp: 0px -3px 6px rgba(0, 0, 0, 0.1);
 }
 
 body {
